@@ -4,17 +4,17 @@
 
 ### Paso 5: Crear un Repositorio en GitHub.
 
-1. Ve a GitHub y crea un nuevo repositorio. Asegúrate de crearlo como un repositorio público para que la documentación sea accesible en *GitHub Pages*.
+1- Ve a GitHub y crea un nuevo repositorio. Asegúrate de crearlo como un repositorio público para que la documentación sea accesible en *GitHub Pages*.
 
-2. Inicializa Git en tu proyecto local:
+2- Inicializa Git en tu proyecto local:
 
 `git init`
 
-3. Crea un archivo `.gitignore` en el directorio raíz de tu proyecto con el siguiente contenido:
+3- Crea un archivo `.gitignore` en el directorio raíz de tu proyecto con el siguiente contenido:
 
 `venv/`
 
-4. Realiza el primer *commit* y vincula tu repositorio remoto:
+4- Realiza el primer *commit* y vincula tu repositorio remoto:
 
 ```bash
 git add .
@@ -26,13 +26,13 @@ git push -u origin main
 
 ### Paso 6: Configurar GitHub Pages
 
-1. Ve a la configuración de tu repositorio en **GitHub**.
-2. Navega a la sección "*Pages*".
-3. En "*Source*", selecciona *Deploy from a branch*, y elige *gh-pages* como rama.
+1- Ve a la configuración de tu repositorio en **GitHub**.
+2- Navega a la sección "*Pages*".
+3- En "*Source*", selecciona *Deploy from a branch*, y elige *gh-pages* como rama.
 
 No me aparece *gh-pages* como rama por lo que continúo con el proceso y continuaré más adelante con este paso.
 
-* Crea un nuevo archivo `.github/workflows/deploy.yml` en el directorio raíz de tu repositorio con el siguiente contenido:
+4- Crea un nuevo archivo `.github/workflows/deploy.yml` en el directorio raíz de tu repositorio con el siguiente contenido:
 
 ```bash
 name: Deploy MkDocs
@@ -59,7 +59,7 @@ name: Deploy MkDocs
 
 ### Paso 8: Desplegar la Documentación.
 
-1. Haz commit de los cambios en el archivo `.github/workflows/deploy.yml` y realiza un push a la rama main:
+1- Haz commit de los cambios en el archivo `.github/workflows/deploy.yml` y realiza un push a la rama main:
 
 ```bash
  git add .
@@ -67,7 +67,7 @@ name: Deploy MkDocs
  git push origin main
 ```
 
-* Ve a la sección "*Actions*" de tu repositorio para ver el progreso del despliegue.
+2- Ve a la sección "*Actions*" de tu repositorio para ver el progreso del despliegue.
 
 ### Vuelvo al Paso 6.
 1. Ve a la configuración de tu repositorio en GitHub. 
