@@ -17,15 +17,15 @@
 
 1- Abre el archivo `mkdocs.yml` y configura el tema **Material**:
 
-```bash
- site_name: Mi Documentación
- theme:
- name: material
- features:
-  - navigation.tabs
-  - navigation.sections
-  - navigation.expand
-  - content.code.cop
+```
+ site_name: Mi Documentación  
+ theme:  
+ name: material  
+ features:  
+  - navigation.tabs  
+  - navigation.sections  
+  - navigation.expand  
+  - content.code.cop  
  ```
 
 ### Paso 4: Crear la Estructura de Documentación.
