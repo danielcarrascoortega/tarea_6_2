@@ -1,4 +1,4 @@
-# ejemplo1
+# Ejemplo1
 
 ## Resultado final del ejercicio.
 

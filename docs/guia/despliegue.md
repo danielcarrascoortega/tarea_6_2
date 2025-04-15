@@ -28,13 +28,13 @@ git push -u origin main
 
 1. Ve a la configuración de tu repositorio en **GitHub**.
 2. Navega a la sección "*Pages*" 
-3. En "*Source*", selecciona Deploy from a branch, y elige *gh-pages* como rama.
+3. En "*Source*", selecciona *Deploy from a branch*, y elige *gh-pages* como rama.
 
 No me aparece *gh-pages* como rama por lo que continúo con el proceso y continuaré más adelante con este paso.
 
 4. Crea un nuevo archivo `.github/workflows/deploy.yml` en el directorio raíz de tu repositorio con el siguiente contenido: 
 
-```yml
+```bash
 name: Deploy MkDocs
  on:
   push:

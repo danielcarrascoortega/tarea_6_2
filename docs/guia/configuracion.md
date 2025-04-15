@@ -2,7 +2,7 @@
 
 ## Creación y Configuración de MKDocs.
 
-### Paso 2.
+### Paso 2: Crear el Proyecto MkDocs. 
 
 1. Inicializa un nuevo proyecto **MkDocs** en el directorio actual:
 
@@ -17,7 +17,7 @@
 
 1. Abre el archivo `mkdocs.yml` y configura el tema **Material**: 
 
-```yml
+```bash
  site_name: Mi Documentación
  theme:
  name: material
@@ -43,7 +43,7 @@
 
 2. Edita el archivo `docs/index.md`
 
-```plain-text
+```bash
  # Bienvenido a Mi Documentación
 
  Esta es la página principal de mi documentación.
