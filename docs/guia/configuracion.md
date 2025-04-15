@@ -15,17 +15,18 @@
 
 ### Paso 3: Configurar MkDocs.
 
-1. Abre el archivo `mkdocs.yml` y configura el tema **Material**:
+1- Abre el archivo `mkdocs.yml` y configura el tema **Material**:
 
-
- `site_name: Mi Documentación`
- `theme:`
- `name: material`
- `features:`
-  `- navigation.tabs`
-  `- navigation.sections`
-  `- navigation.expand`
-  `- content.code.cop`
+```bash
+ site_name: Mi Documentación
+ theme:
+ name: material
+ features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - content.code.cop
+ ```
 
 ### Paso 4: Crear la Estructura de Documentación.
 
@@ -41,6 +42,7 @@
     └── ejemplo1.md
 
 2- Edita el archivo `docs/index.md`  
+
 
  \# Bienvenido a Mi Documentación
 
