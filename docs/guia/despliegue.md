@@ -24,15 +24,15 @@ git remote add origin git@github.com:danielcarrascoortega/tarea_6_2.git
 git push -u origin main
 ```
 
-### Paso 6: Configurar GitHub Pages 
+### Paso 6: Configurar GitHub Pages
 
 1. Ve a la configuración de tu repositorio en **GitHub**.
-2. Navega a la sección "*Pages*" 
+2. Navega a la sección "*Pages*".
 3. En "*Source*", selecciona *Deploy from a branch*, y elige *gh-pages* como rama.
 
 No me aparece *gh-pages* como rama por lo que continúo con el proceso y continuaré más adelante con este paso.
 
-4. Crea un nuevo archivo `.github/workflows/deploy.yml` en el directorio raíz de tu repositorio con el siguiente contenido: 
+4. Crea un nuevo archivo `.github/workflows/deploy.yml` en el directorio raíz de tu repositorio con el siguiente contenido:
 
 ```bash
 name: Deploy MkDocs
@@ -59,7 +59,7 @@ name: Deploy MkDocs
 
 ### Paso 8: Desplegar la Documentación.
 
-1. Haz commit de los cambios en el archivo `.github/workflows/deploy.yml` y realiza un push a la rama main: 
+1. Haz commit de los cambios en el archivo `.github/workflows/deploy.yml` y realiza un push a la rama main:
 
 ```bash
  git add .

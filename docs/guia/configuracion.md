@@ -2,7 +2,7 @@
 
 ## Creación y Configuración de MKDocs.
 
-### Paso 2: Crear el Proyecto MkDocs. 
+### Paso 2: Crear el Proyecto MkDocs.
 
 1. Inicializa un nuevo proyecto **MkDocs** en el directorio actual:
 
@@ -15,7 +15,7 @@
 
 ### Paso 3: Configurar MkDocs.
 
-1. Abre el archivo `mkdocs.yml` y configura el tema **Material**: 
+1. Abre el archivo `mkdocs.yml` y configura el tema **Material**:
 
 ```bash
  site_name: Mi Documentación
@@ -25,7 +25,7 @@
   - navigation.tabs
   - navigation.sections
   - navigation.expand
-  - content.code.cop  
+  - content.code.cop
  ```
 
 ### Paso 4: Crear la Estructura de Documentación.
@@ -36,7 +36,7 @@
  ├── index.md  
  ├── guia/  
  │  ├── instalacion.md  
- │  ├── configuracion.md   
+ │  ├── configuracion.md  
  │  └── despliegue.md  
  └── ejemplos/  
     └── ejemplo1.md
@@ -52,5 +52,5 @@
 
  \- \[Guía de Instalación](guia/instalacion.md)
  \- \[Configuración](guia/configuracion.md)
- \- \[Despliegue](guia/despliegue.md) 
+ \- \[Despliegue](guia/despliegue.md)
  ```
