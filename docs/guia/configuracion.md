@@ -16,7 +16,7 @@
 ### Paso 3: Configurar MkDocs.
 
 1. Abre el archivo `mkdocs.yml` y configura el tema **Material**:
-
+  
 ```bash
  site_name: Mi Documentación
  theme:
@@ -50,6 +50,6 @@
 
  \## Contenido
 
- \- \[Guía de Instalación](guia/instalacion.md)
- \- \[Configuración](guia/configuracion.md)
- \- \[Despliegue](guia/despliegue.md)
+ \- \[Guía de Instalación](guia/instalacion.md)  
+ \- \[Configuración](guia/configuracion.md)  
+ \- \[Despliegue](guia/despliegue.md)  
