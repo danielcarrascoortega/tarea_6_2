@@ -10,8 +10,8 @@
 
 2. Esto creará dos archivos importantes:
 
-* `mkdocs.yml` : El archivo de configuración
-* `docs/index.md` : Tu página principal
+- `mkdocs.yml` : El archivo de configuración
+- `docs/index.md` : Tu página principal
 
 ### Paso 3: Configurar MkDocs.
 
@@ -25,7 +25,7 @@
   - navigation.tabs
   - navigation.sections
   - navigation.expand
-  - content.code.cop
+  - content.code.cop  
  ```
 
 ### Paso 4: Crear la Estructura de Documentación.
@@ -50,7 +50,7 @@
 
  ## Contenido
 
- - [Guía de Instalación](guia/instalacion.md)
- - [Configuración](guia/configuracion.md)
- - [Despliegue](guia/despliegue.md) 
+ \- \[Guía de Instalación](guia/instalacion.md)
+ \- \[Configuración](guia/configuracion.md)
+ \- \[Despliegue](guia/despliegue.md) 
  ```

@@ -18,9 +18,9 @@ cd mi-documentacion
 En Windows: `venv\Scripts\activate`
 
 Como me da error en la utilización de scripts, sigo los siguientes pasos:  
-* Ejecuto el comando `Get-ExecutionPolicy -List` y veo que no está definida la política de ejecución de scripts.
-* Ejecuto el comando `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser `
-* Ejecuto de nuevo `venv\Scripts\activate`
+- Ejecuto el comando `Get-ExecutionPolicy -List` y veo que no está definida la política de ejecución de scripts.
+- Ejecuto el comando `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser `
+- Ejecuto de nuevo `venv\Scripts\activate`
 
 4. Instala **MkDocs** y el tema **Material**. 
 
