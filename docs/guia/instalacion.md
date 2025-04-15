@@ -22,6 +22,6 @@ Como me da error en la utilización de scripts, sigo los siguientes pasos:
 * Ejecuto el comando `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser `
 * Ejecuto de nuevo `venv\Scripts\activate`
 
-4. Instala MkDocs y el tema Material. 
+4. Instala **MkDocs** y el tema **Material**. 
 
 `pip install mkdocs mkdocs-material`

@@ -1,8 +1,10 @@
-# Creación y Configuración de MKDocs.
+# Configuración.
+
+## Creación y Configuración de MKDocs.
 
 ### Paso 2.
 
-1. Inicializa un nuevo proyecto MkDocs en el directorio actual:
+1. Inicializa un nuevo proyecto **MkDocs** en el directorio actual:
 
 `mkdocs new .`
 
@@ -13,7 +15,7 @@
 
 ### Paso 3: Configurar MkDocs.
 
-1. Abre el archivo `mkdocs.yml` y configura el tema Material: 
+1. Abre el archivo `mkdocs.yml` y configura el tema **Material**: 
 
 ```yml
  site_name: Mi Documentación
@@ -41,7 +43,7 @@
 
 2. Edita el archivo `docs/index.md`
 
-```text
+```plain-text
  # Bienvenido a Mi Documentación
 
  Esta es la página principal de mi documentación.
