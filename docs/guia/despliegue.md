@@ -32,7 +32,7 @@ git push -u origin main
 
 No me aparece *gh-pages* como rama por lo que continúo con el proceso y continuaré más adelante con este paso.
 
-4. Crea un nuevo archivo `.github/workflows/deploy.yml` en el directorio raíz de tu repositorio con el siguiente contenido:
+* Crea un nuevo archivo `.github/workflows/deploy.yml` en el directorio raíz de tu repositorio con el siguiente contenido:
 
 ```bash
 name: Deploy MkDocs
@@ -55,7 +55,7 @@ name: Deploy MkDocs
 
 1. Ve a la sección "*Actions*" de tu repositorio, y selecciona la sección *General*.
 
- 2. En la sección *Workflow Permissions*, selecciona "*Read and write access*" para permitir que el flujo de trabajo pueda hacer push a la rama *gh-pages*.
+2. En la sección *Workflow Permissions*, selecciona "*Read and write access*" para permitir que el flujo de trabajo pueda hacer push a la rama *gh-pages*.
 
 ### Paso 8: Desplegar la Documentación.
 
@@ -67,7 +67,7 @@ name: Deploy MkDocs
  git push origin main
 ```
 
-2. Ve a la sección "*Actions*" de tu repositorio para ver el progreso del despliegue.
+* Ve a la sección "*Actions*" de tu repositorio para ver el progreso del despliegue.
 
 ### Vuelvo al Paso 6.
 1. Ve a la configuración de tu repositorio en GitHub. 
