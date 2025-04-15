@@ -4,11 +4,11 @@
 
 ### Paso 2: Crear el Proyecto MkDocs.
 
-1. Inicializa un nuevo proyecto **MkDocs** en el directorio actual:
+1- Inicializa un nuevo proyecto **MkDocs** en el directorio actual:
 
 `mkdocs new .`
 
-2. Esto creará dos archivos importantes:
+2- Esto creará dos archivos importantes:
 
 - `mkdocs.yml` : El archivo de configuración
 - `docs/index.md` : Tu página principal
@@ -30,7 +30,7 @@
 
 ### Paso 4: Crear la Estructura de Documentación.
 
-1. En la carpeta docs , crea la siguiente estructura:
+1- En la carpeta docs , crea la siguiente estructura:
 
  docs/  
  ├── index.md  
@@ -41,7 +41,7 @@
  └── ejemplos/  
     └── ejemplo1.md
 
-2. Edita el archivo `docs/index.md`
+2- Edita el archivo `docs/index.md`  
 
 ```bash
  # Bienvenido a Mi Documentación
